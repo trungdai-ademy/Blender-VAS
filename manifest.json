@@ -1,0 +1,24 @@
+{
+    "_note":  "Gói phần mềm VAS phát hành từ repo này — sinh tự động từ setup/tools-manifest.json của VAS (tools/vas-repos/make-repos.ps1). Không sửa tay.",
+    "packages":  [
+                     {
+                         "id":  "blender",
+                         "vasRepo":  "Blender-VAS",
+                         "boCai":  "setup",
+                         "title":  "Blender",
+                         "version":  "5.2.2",
+                         "file":  "blender-5.2.2-windows-x64.zip",
+                         "url":  "https://download.blender.org/release/Blender5.2/blender-5.2.2-windows-x64.zip",
+                         "sha256":  "3849D17A682CBA006075AAA3F3597ECB5C9C30EC31035B2E092C53E40679B535",
+                         "license":  "GPL-3.0-or-later",
+                         "home":  "https://www.blender.org",
+                         "sourceCode":  "https://download.blender.org/source/blender-5.2.2.tar.xz",
+                         "sources":  [
+                                         "https://download.blender.org/source/blender-5.2.2.tar.xz"
+                                     ],
+                         "update":  {
+                                        "kind":  "blender"
+                                    }
+                     }
+                 ]
+}
